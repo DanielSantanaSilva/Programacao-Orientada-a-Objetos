@@ -74,3 +74,5 @@ Você também pode ter notado que alguns objetos também possuem uma propriedade
 //Cuidando da performance
 
 //Todas as propriedades de uma cadeia de protótipos são enumeradas e o tempo que o interpretador leva para pesquisar uma propriedade, desde o nível mais alto na cadeia, pode ser longo e impactar o desempenho. Além disso, se o código tentar acessar uma propriedade não existente, vai percorrer toda a cadeia durante a busca. Assim, não é uma boa prática criar longas cadeias de protótipos.
+
+//Dica: A cadeia de protótipos é a base original de programação orientada a objetos com JavaScript. Praticamente tudo, em JavaScript, é considerado um objeto, e estes objetos recebem um protótipo, de onde vêm as propriedades e métodos que todos os objetos do mesmo tipo compartilham.
